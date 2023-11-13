@@ -1,4 +1,4 @@
-module github.com/empfaze/golang_microservices
+module github.com/empfaze/golang_redis
 
 go 1.20
 

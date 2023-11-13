@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/empfaze/golang_microservices/handlers"
-	"github.com/empfaze/golang_microservices/repository/order"
+	"github.com/empfaze/golang_redis/handlers"
+	"github.com/empfaze/golang_redis/repositories/order"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 )

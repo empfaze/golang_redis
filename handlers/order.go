@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/empfaze/golang_microservices/models"
-	"github.com/empfaze/golang_microservices/repository/order"
+	"github.com/empfaze/golang_redis/models"
+	"github.com/empfaze/golang_redis/repositories/order"
 	"github.com/google/uuid"
 )
 

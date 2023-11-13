@@ -6,7 +6,7 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/empfaze/golang_microservices/app"
+	"github.com/empfaze/golang_redis/app"
 )
 
 func main() {
