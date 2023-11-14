@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	app := app.New()
+	app := app.New(app.GetConfig())
 
 	ctx, cancel := signal.NotifyContext(context.Background(), os.Interrupt)
 	defer cancel()
